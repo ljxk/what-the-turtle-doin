@@ -3,7 +3,7 @@ print ("type the thing you want it to draw.")
 write = input()
 theturtle = turtle.Turtle()
 theturtle.shape("turtle")
-if write == ("italy"):
+def draw_italy():
   theturtle.pencolor("black")
   theturtle.forward(100)
   theturtle.right(90)
@@ -37,7 +37,7 @@ if write == ("italy"):
   theturtle.forward(50)
   theturtle.end_fill()
 
-def drawnigeria
+def draw_nigeria():
   theturtle.pencolor("black")
   theturtle.forward(100)
   theturtle.right(90)
@@ -70,7 +70,11 @@ def drawnigeria
   theturtle.right(90)
   theturtle.forward(50)
   theturtle.end_fill()
+if write == ("italy"):
+  draw_italy()
 
+if write == ("nigeria"):
+  draw_nigeria()
     
   
 
